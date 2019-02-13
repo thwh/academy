@@ -1,0 +1,156 @@
+body {
+    font-family: monospace;
+    font-size: 3.2vmin;
+}
+
+#title {
+    margin: 2% 3% 5% 3%;
+    text-align: center;
+}
+
+div#logo {
+    font-size: 8vmin;
+    text-align: center;
+    padding: 0% 0%;
+    /* border: 0% 0%; */
+    border: 0.5vmin solid #555;
+    border-radius: 5vmin;
+    /* margin: 0em 7em; */
+    margin: 0% 45%;
+    background-color: #555;
+}
+
+div#logo span {
+    font-size: 8vmin;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* Only for image version */
+/* div#logo { */
+/*     margin: 2% 0%; */
+/* } */
+
+/* Only for image version */
+div#logo img {
+    width: 50%;
+}
+
+
+span#plus {
+    /* gold: da9c28 */
+    color: #da9c28;
+}
+
+#profile {
+    width: 100%;
+    margin: 3% 0%;
+}
+
+#main {
+    margin: 2% 3%;
+    padding: 2% 2%;
+}
+
+div#contact_button {
+    text-align: center;
+    margin: 2% 0% 15% 0%;
+}
+
+div#contact_button span {
+    /* red*/
+    /* background-color: #990000; */
+
+    font-size: 3vmin;
+    color: #fff;
+    background-color: #35497a;
+    border: 0.5vmin solid #d6960d;
+    border-radius: 2vmin;
+    margin: 3% 0%;
+    padding: 1% 2%;
+}
+
+div#contact_button a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    color: #000;
+}
+
+h1 {
+    /* test setting font-size with vmin */
+    /* possibly let browser set it to default 2em*/
+    font-size: 6vmin;
+    color: inherit;
+    text-align: center;
+}
+
+h2 {
+    /* test setting font-size */
+    font-size: 4vmin;
+    color: #444;
+}
+
+ul {
+    list-style-type: circle;
+    margin-inline-start: 1em;
+    padding-inline-start: 0em;
+}
+
+ul#contact_list {
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 0em;
+    padding-inline-start: 0em;
+}
+
+ul#contact_list li {
+    margin-bottom: 0.5em;
+}
+
+a:link {
+    color: #a36f00;
+    /* text-decoration: none; */
+    font-weight: 100;
+}
+
+a:visited {
+    color: #a36f00;
+    /* color: blue; */
+}
+
+hr {
+    margin: 5% 10%;
+    border: 0;
+    border-bottom: 2px dashed #ccc;
+    background: #fff;
+}
+
+/* Trying to capture anything larger than laptop */
+@media (min-width: 1200px) {
+    body {
+        /* smaller */
+        font-size: 2.2vmin;
+    }
+    #title {
+        /* narrower */
+        margin: 2% 15%;
+    }
+    #main {
+        /* narrower than title */
+        margin: 2% 20%;
+        /* less vertical space */
+        padding: 1% 2%;
+    }
+    h2 {
+        /* test setting font-size */
+        font-size: 3vmin;
+    }
+    span#logo_individual {
+        font-size: 2.7vmin;
+    }
+}
